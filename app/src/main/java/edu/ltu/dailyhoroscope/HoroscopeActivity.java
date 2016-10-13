@@ -17,7 +17,8 @@ public class HoroscopeActivity extends Activity {
         //Get the horoscope from the intent
         int horoscopeNo = (Integer)getIntent().getExtras().get(EXTRA_HOROSCOPENO);
         Horoscope horoscope = Horoscope.horoscopes[horoscopeNo];
-        HoroscopeText horoscopetext = HoroscopeText.horoscopesummary[horoscopeNo];
+        //BottomHoroscopeFragment horoscopesummary = (BottomHoroscopeFragment) getFragmentManager().findFragmentById(R.id.summarytext);
+        //HoroscopeText horoscopetext = HoroscopeText.horoscopesummary[horoscopeNo];
 
 
         //Populate the horoscope name
@@ -36,9 +37,9 @@ public class HoroscopeActivity extends Activity {
         TextView month = (TextView)findViewById(R.id.month);
         month.setText(horoscope.getMonth());
 
-        String horoscopestring;
+        /*String horoscopestring;
         horoscopestring = (horoscopetext.getHoroscope());
-        BottomHoroscopeFragment horoscopesummary = (BottomHoroscopeFragment) getFragmentManager().findFragmentById(R.id.summarytext);
         horoscopesummary.setSummaryText(horoscopestring);
+        */
     }
 }
