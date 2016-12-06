@@ -32,11 +32,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:name="edu.ltu.dailyhoroscope.BottomHoroscopeFragment"
-        android:id="@+id/horoscopetext"
-        tools:layout="@layout/bottom_horoscope_fragment"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/fragment"
 
-        android:layout_marginBottom="156dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        tools:layout="@layout/bottom_horoscope_fragment" />
 
 </RelativeLayout>
