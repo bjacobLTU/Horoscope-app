@@ -1,3 +1,4 @@
+//updated to add a fragment at the bottom of this activity
 package edu.ltu.dailyhoroscope;
 
 import android.app.Activity;
